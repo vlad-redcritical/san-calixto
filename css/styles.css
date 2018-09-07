@@ -185,8 +185,11 @@
 	color: #DE2077;
 	font-family: "TeleGroteskNormal";
 	font-size: 24px;
+	width: 116px;
 	line-height: 27px;
+	padding-top: 27px;
 	text-align: right;
+	text-decoration: none;
 }
 .summary {
 	padding-left: 35px;
@@ -213,5 +216,70 @@ h1{
 		margin-bottom: 50px;
 }
 
+
+@font-face {
+  font-family: 'TeleGroteskFett';
+  src: url("../fonts/TeleGroteskFett.woff"); }
+
+@font-face {
+  font-family: 'TeleGroteskHalbfett';
+  src: url("../fonts/TeleGroteskHalbfett.woff"); }
+
+@font-face {
+  font-family: 'TeleGroteskHeadline-Regular';
+  src: url("../fonts/TeleGroteskHeadline-Regular.woff"); }
+
+@font-face {
+  font-family: 'TeleGroteskNormal';
+  src: url("../fonts/TeleGroteskNormal.woff"); }
+
+@font-face {
+  font-family: 'TeleGroteskUltra';
+  src: url("../fonts/TeleGroteskUltra.woff"); }
+
+@font-face {
+  font-family: 'TeleGrotesk';
+  src: url("../fonts/TeleGroteskFett.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TeleGroteskFett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskFett.woff2") format("woff2"), url("../fonts/TeleGroteskFett.woff") format("woff"), url("../fonts/TeleGroteskFett.ttf") format("truetype"), url("../fonts/TeleGroteskFett.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TeleGrotesk';
+  src: url("../fonts/TeleGroteskHalbfett.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TeleGroteskHalbfett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskHalbfett.woff2") format("woff2"), url("../fonts/TeleGroteskHalbfett.woff") format("woff"), url("../fonts/TeleGroteskHalbfett.ttf") format("truetype"), url("../fonts/TeleGroteskHalbfett.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TeleGrotesk';
+  src: url("../fonts/TeleGroteskHeadline-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TeleGroteskHeadline-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskHeadline-Regular.woff2") format("woff2"), url("../fonts/TeleGroteskHeadline-Regular.woff") format("woff"), url("../fonts/TeleGroteskHeadline-Regular.ttf") format("truetype"), url("../fonts/TeleGroteskHeadline-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TeleGrotesk';
+  src: url("../fonts/TeleGroteskUltra.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TeleGroteskUltra.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskUltra.woff2") format("woff2"), url("../fonts/TeleGroteskUltra.woff") format("woff"), url("../fonts/TeleGroteskUltra.ttf") format("truetype"), url("../fonts/TeleGroteskUltra.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TeleGrotesk';
+  src: url("../fonts/TeleGroteskNormal.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TeleGroteskNormal.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskNormal.woff2") format("woff2"), url("../fonts/TeleGroteskNormal.woff") format("woff"), url("../fonts/TeleGroteskNormal.ttf") format("truetype"), url("../fonts/TeleGroteskNormal.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 100;
+  font-style: normal; }
 
 

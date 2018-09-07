@@ -80,7 +80,12 @@
 
 /*form 1 start*/
 
-.podaj-swoj-adres-i-s { height: 27px; width: 549px; color: #2D3236; font-family: "TeleGrotesk Next";  font-size: 24px;  font-weight: bold;  line-height: 27px;  text-align: right;}
+.group {
+  height: 44px;
+  width: 616px;
+}
+
+.podaj-swoj-adres-i-s { height: 27px; color: #2D3236; font-family: "TeleGrotesk Next";  font-size: 24px;  font-weight: bold;  line-height: 27px;  text-align: right;}
 
 .rectangle {
   height: 200px;
@@ -92,6 +97,7 @@
 .pasted-image-1 {
   height: 44px;
   width: 44px;
+  padding-right: 23px;
 }
 
 .miejscowo {

@@ -33,7 +33,30 @@
     padding-right: 3% !important;
    }
 
-  
+  .box-oprions {
+      display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+.sprawd {
+  height: 26px;
+  width: 77px;
+  color: #FFFFFF;
+  font-family: "TeleGroteskNormal";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
 .container {
     max-width: 2560px;
     min-width: 300px;
@@ -53,6 +76,102 @@
 	line-height: 27px;
 	padding-left: 23px;
 }
+
+
+/*form 1 start*/
+
+.podaj-swoj-adres-i-s { height: 27px; width: 549px; color: #2D3236; font-family: "TeleGrotesk Next";  font-size: 24px;  font-weight: bold;  line-height: 27px;  text-align: right;}
+
+.rectangle {
+  height: 200px;
+  width: 1114px;
+  border: 1px solid #C5C5C5;
+  background-color: #EEEEEE;
+}
+
+.pasted-image-1 {
+  height: 44px;
+  width: 44px;
+}
+
+.miejscowo {
+  height: 21px;
+  width: 98px;
+  color: #2D3236;
+  font-family: "TeleGroteskNormal";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.rectangle-6 {
+  height: 39px;
+  width: 220px;
+  border: 2px solid #FF5D5D;
+  background-color: #FFFFFF;
+}
+
+.ulica {
+  height: 21px;
+  width: 43px;
+  color: #2D3236;
+  font-family: "TeleGroteskNormal";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.nr-domu {
+  height: 21px;
+  width: 67px;
+  color: #2D3236;
+  font-family: "TeleGroteskNormal";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.nr-lokalu {
+  height: 21px;
+  width: 88px;
+  color: #2D3236;
+  font-family: "TeleGroteskNormal";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.rectangle-6-copy {
+  height: 39px;
+  width: 220px;
+  border: 1px solid #C5C5C5;
+  background-color: #FFFFFF;
+}
+
+.rectangle-6-copy-3 {
+  height: 39px;
+  width: 120px;
+  border: 1px solid #C5C5C5;
+  background-color: #FFFFFF;
+}
+
+.rectangle-6-copy-4 {
+  height: 39px;
+  width: 120px;
+  border: 1px solid #C5C5C5;
+  background-color: #FFFFFF;
+}
+
+
+.rectangle-6-copy-2 {
+  height: 68px;
+  width: 220px;
+  border-radius: 14px;
+  background-color: #E20074;
+}
+
+
+/*form 1 end*/
 
 .adres-bold {
 	color: #2D3236;

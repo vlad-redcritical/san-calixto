@@ -89,6 +89,10 @@
   width: 616px;
 }
 
+.required-star {
+    color: red;
+}
+
 .podaj-swoj-adres-i-s {
   height: 27px;
   width: 549px;

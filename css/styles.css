@@ -133,6 +133,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21px;
+  display: block;
 }
 
 .ulica {
@@ -143,6 +144,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21px;
+  display: block;
 }
 
 .nr-domu {
@@ -153,6 +155,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21px;
+  display: block;
 }
 
 .nr-lokalu {
@@ -163,6 +166,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21px;
+  display: block;
 }
 
 .rectangle-6-copy-4 {
@@ -202,6 +206,7 @@
 	font-weight: bold;
 }
 
+
 .inny-adres {
 	color: #DE2077;
 	font-family: "TeleGroteskNormal";
@@ -230,10 +235,10 @@
 
 h1{
 	height: 68px;
-		width: 624px;	
-		color: #2D3236;	
-        font-family: 'Roboto', sans-serif;	
-        	font-size: 58px;	
+    width: 661px;
+    color: #2D3236;	
+    font-family: 'Roboto', sans-serif;	
+    font-size: 58px;	
 		font-weight: bold;	
 		line-height: 68px;	
 		margin-top: 60px;

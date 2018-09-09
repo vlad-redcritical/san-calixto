@@ -195,6 +195,80 @@
   background-color: #E20074;
 }
 
+/*Checkbox implementation Start*/
+
+.street-container {
+    position: absolute;
+    padding-left: 35px;
+    margin-top: 20px;
+    margin-left: 189px;
+    /* right: 0; */
+    /* float: right; */
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    /* font-size: 22px; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.street-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark-street {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    border: 1px solid #C5C5C5;
+}
+
+/* On mouse-over, add a grey background color */
+.street-container:hover input ~ .checkmark-street {
+    background-color: #fff;
+    border: 1px solid #2faeeb61;
+}
+
+/* When the checkbox is checked, add a blue background */
+.street-container input:checked ~ .checkmark-street {
+    background-color: #ffffff;
+}
+
+/* Create the checkmark-street/indicator (hidden when not checked) */
+.checkmark-street:after {
+    position: absolute;
+    display: none;
+    background : url(../img/shape-icon.png) no-repeat;
+  content : "";
+}
+
+/* Show the checkmark-street when checked */
+.street-container input:checked ~ .checkmark-street:after {
+    display: block;
+}
+
+/* Style the checkmark-street/indicator */
+.street-container .checkmark-street:after {
+    left: 3px;
+    top: 4px;
+    width: 11px;
+    height: 9px;
+}
+
+.option-element-check {
+      display: flex;
+    justify-content: space-between;
+}
+
+
+/*Checkbox impl End*/
 
 /*form 1 end*/
 

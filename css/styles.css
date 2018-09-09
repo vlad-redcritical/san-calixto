@@ -111,8 +111,8 @@
 }
 
 .rectangle-box {
-  height: 39px;
-  width: 218px;
+  height: 21px;
+  width: 202px;
   border: 1px solid #C5C5C5;
   background-color: #FFFFFF;
   margin-top: 8px;
@@ -170,8 +170,8 @@
 }
 
 .rectangle-6-copy-4 {
-  height: 39px;
-  width: 118px;
+  height: 21px;
+  width: 106px;
   border: 1px solid #C5C5C5;
   background-color: #FFFFFF;
   margin-top: 8px;
@@ -179,8 +179,8 @@
 }
 
 .rectangle-6-copy-3 {
-  height: 39px;
-  width: 118px;
+  height: 21px;
+  width: 106px;
   border: 1px solid #C5C5C5;
   background-color: #FFFFFF;
   margin-top: 8px;
@@ -194,6 +194,29 @@
   border-radius: 14px;
   background-color: #E20074;
 }
+
+
+/*.option-grid input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+*/
+
+.option-grid input[type="text"]
+{
+    font-size: 24px;
+    color: #2D3236;
+    font-family: "TeleGroteskNormal";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
 
 /*Checkbox implementation Start*/
 
@@ -233,7 +256,7 @@
 /* On mouse-over, add a grey background color */
 .street-container:hover input ~ .checkmark-street {
     background-color: #fff;
-    border: 1px solid #2faeeb61;
+    border: 1px solid #9dbff6;
 }
 
 /* When the checkbox is checked, add a blue background */

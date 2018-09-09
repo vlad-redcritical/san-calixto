@@ -10,11 +10,9 @@
     <meta name="description" content="">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/tippy.css">
 
 	<link rel="stylesheet" href="./css/styles.css">
-
-    <script src="./js/scripts.js"></script>
-
 </head>
 
 <body>
@@ -34,6 +32,9 @@
 					<div class="option-grid">
 						<label for="field-city" class="miejscowo">Miejscowość:</label>
 						<input type="text" name="field-city" id="field-city" class="rectangle-box"/>
+						<!-- <div class="search-suggest__list">
+							<ul id="search_get_hints"></ul>
+						</div> -->
 					</div>
 					<div class="option-grid">
 						<label for="field-street" class="ulica">Ulica:</label>
@@ -44,7 +45,7 @@
 							<!-- Checkbox start-->
 							<label class="street-container">
 							  <input type="checkbox">
-							  <span class="checkmark-street"></span>
+							  <span class="checkmark-street infotip-optional" title="zaznacz jeśli w tym mieście nie ma ulicy"></span>
 							</label>
 							<!-- Checkbox end -->
 						</div>
@@ -55,16 +56,24 @@
 						<input type="text" name="field-house-num" id="field-house-num" class="rectangle-6-copy-3"/>
 					</div>
 					<div class="option-grid">
-						<label for="field-local-num" class="nr-lokalu">nr lokalu<span class="required-star">* </span>:</label>
+					<label for="field-local-num" class="nr-lokalu">nr lokalu<span class="required-star info-req-value" title="opcjonalnie">* </span>:</label>
 						<input type="text" name="field-local-num" id="field-local-num" class="rectangle-6-copy-4"/>
 					</div>
 					<button class="rectangle-6-copy-2"><span class="sprawd"> Sprawdź </span></button>
 				</div>
     		</div>
-	
+    		<input id="hintsLimit" type="hidden" value="3"> 	
 	</div>
 </section>
-  <script src="./js/scripts.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./js/tippy.min.js"></script>
+<script src="./js/scripts.js"></script>
+
+<!--  
+Will be implemented after, we are got information about request parameters & methods.
+	<script src="./js/search_result.js"></script>
+ -->
+
 
 </body>
 

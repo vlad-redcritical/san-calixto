@@ -12,6 +12,8 @@
   font-weight: normal;
   font-style: normal; }
 
+
+/*common start*/
 .box{
 	display: -webkit-box;
     display: -ms-flexbox;
@@ -29,10 +31,35 @@
 	border: 1px solid #C5C5C5;	
 	background-color: #EEEEEE;
 	box-sizing: content-box;
-  /*For delete: Block cannot has a child logics, please add that styles to child elements.
-    padding-left: 3% !important;
-    padding-right: 3% !important;*/ 
+ 
    }
+
+   .container {
+    max-width: 2560px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "TeleGroteskNormal"; 
+    box-sizing: content-box;
+    padding-left: 12% !important;
+    padding-right: 12% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;}
+
+
+.box-container, .box-container-summary{
+	  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 26px;
+    margin-left: 32px;
+    width: 616px;
+}
+ /*common end*/
+
 
   .box-options {
       display: -webkit-box;
@@ -61,25 +88,7 @@
   line-height: 26px;
 }
 
-.container {
-    max-width: 2560px;
-    min-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "TeleGroteskNormal"; 
-    box-sizing: content-box;
-    padding-left: 12% !important;
-    padding-right: 12% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;}
 
-.adres {
-	color: #2D3236;
-	font-family: "TeleGroteskNormal";
-	font-size: 24px;
-	line-height: 27px;
-	padding-left: 23px;
-}
 
 
 /*form 1 start*/
@@ -97,7 +106,6 @@
   height: 27px;
   width: 549px;
   color: #2D3236;
-  font-family: "TeleGroteskNormal";
   font-size: 24px;
   font-weight: bold;
   line-height: 27px;
@@ -295,22 +303,30 @@
 
 /*form 1 end*/
 
-.adres-bold {
-	color: #2D3236;
-	font-family: "TeleGroteskNormal";
+
+/*form 2 start*/
+.adres-bold, .adres, .inny-adres {
 	font-size: 24px;
 	line-height: 27px;
+}
+
+.adres-bold, .adres {
+	color: #2D3236;
+
+}
+.adres-bold {
 	font-weight: bold;
 }
 
+.adres {
+	padding-left: 23px;
+}
 
 .inny-adres {
 	color: #DE2077;
-	font-family: "TeleGroteskNormal";
-	font-size: 24px;
 	width: 116px;
-	line-height: 27px;
 	text-align: right;
+	margin-right: 30px;
 	text-decoration: none;
 }
 .summary {
@@ -318,16 +334,8 @@
 	padding-right: 35px;
 }
 
-.box-container {
-	  display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 26px;
-    margin-left: 32px;
-    width: 616px;
+.box-container-summary{
+	    margin-top: 0px;
 }
 
 h1{
@@ -342,62 +350,16 @@ h1{
 		margin-bottom: 50px;
 }
 
+/*form 2 end*/
 
-@font-face {
-  font-family: 'TeleGroteskFett';
-  src: url("../fonts/TeleGroteskFett.woff"); }
-
-@font-face {
-  font-family: 'TeleGroteskHalbfett';
-  src: url("../fonts/TeleGroteskHalbfett.woff"); }
-
-@font-face {
-  font-family: 'TeleGroteskHeadline-Regular';
-  src: url("../fonts/TeleGroteskHeadline-Regular.woff"); }
 
 @font-face {
   font-family: 'TeleGroteskNormal';
   src: url("../fonts/TeleGroteskNormal.woff"); }
 
-@font-face {
-  font-family: 'TeleGroteskUltra';
-  src: url("../fonts/TeleGroteskUltra.woff"); }
 
-@font-face {
-  font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskFett.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/TeleGroteskFett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskFett.woff2") format("woff2"), url("../fonts/TeleGroteskFett.woff") format("woff"), url("../fonts/TeleGroteskFett.ttf") format("truetype"), url("../fonts/TeleGroteskFett.svg#svgFontName") format("svg");
-  /* Legacy iOS */
-  font-weight: 700;
-  font-style: normal; }
 
-@font-face {
-  font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskHalbfett.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/TeleGroteskHalbfett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskHalbfett.woff2") format("woff2"), url("../fonts/TeleGroteskHalbfett.woff") format("woff"), url("../fonts/TeleGroteskHalbfett.ttf") format("truetype"), url("../fonts/TeleGroteskHalbfett.svg#svgFontName") format("svg");
-  /* Legacy iOS */
-  font-weight: 600;
-  font-style: normal; }
 
-@font-face {
-  font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskHeadline-Regular.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/TeleGroteskHeadline-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskHeadline-Regular.woff2") format("woff2"), url("../fonts/TeleGroteskHeadline-Regular.woff") format("woff"), url("../fonts/TeleGroteskHeadline-Regular.ttf") format("truetype"), url("../fonts/TeleGroteskHeadline-Regular.svg#svgFontName") format("svg");
-  /* Legacy iOS */
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskUltra.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/TeleGroteskUltra.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskUltra.woff2") format("woff2"), url("../fonts/TeleGroteskUltra.woff") format("woff"), url("../fonts/TeleGroteskUltra.ttf") format("truetype"), url("../fonts/TeleGroteskUltra.svg#svgFontName") format("svg");
-  /* Legacy iOS */
-  font-weight: 900;
-  font-style: normal; }
 
 @font-face {
   font-family: 'TeleGrotesk';

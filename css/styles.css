@@ -14,7 +14,7 @@
 
 
 /*common start*/
-.box{
+.box {
 	display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -34,7 +34,7 @@
  
    }
 
-   .container {
+   .search-galaxy .container {
     max-width: 2560px;
     min-width: 300px;
     margin-left: auto;
@@ -47,7 +47,7 @@
     margin-right: auto !important;}
 
 
-.box-container, .box-container-summary{
+.box-container-galaxy, .box-container-summary{
 	  display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -58,10 +58,8 @@
     margin-left: 32px;
     width: 616px;
 }
- /*common end*/
 
-
-  .box-options {
+  .search-galaxy .box-options {
       display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -70,8 +68,6 @@
             align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-/*            justify-content: space-between;
-*/    
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
      padding: 26px 27px 36px 32px;
@@ -88,10 +84,6 @@
   line-height: 26px;
 }
 
-
-
-
-/*form 1 start*/
 
 .group {
   height: 44px;
@@ -111,7 +103,7 @@
   line-height: 27px;
 }
 
-.rectangle {
+.rectangle-galaxy {
   height: 200px;
   width: 1114px;
   border: 1px solid #C5C5C5;
@@ -184,6 +176,15 @@
   background-color: #FFFFFF;
   margin-top: 8px;
   margin-right: 41px;
+}
+
+
+.search_get_hints {
+  height: 204px;
+  width: 245px;
+  border: 1px solid #C5C5C5;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
 }
 
 .rectangle-6-copy-3 {
@@ -287,13 +288,6 @@
     justify-content: space-between;
 }
 
-
-/*Checkbox impl End*/
-
-/*form 1 end*/
-
-
-/*form 2 start*/
 .adres-bold, .adres, .inny-adres {
 	font-size: 24px;
 	line-height: 27px;
@@ -339,15 +333,9 @@ h1{
 		margin-bottom: 50px;
 }
 
-/*form 2 end*/
-
-
 @font-face {
   font-family: 'TeleGroteskNormal';
   src: url("../fonts/TeleGroteskNormal.woff"); }
-
-
-
 
 
 @font-face {

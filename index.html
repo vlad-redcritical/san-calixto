@@ -23,6 +23,7 @@
 		<h1>Internet Światłowodowy</h1>
 
 			<div class="rectangle-galaxy">
+			  <form id="galaxy-search-form">
 				<div class="box-container-galaxy"> 
 					<img class="pasted-image-1" src="img/search.png" alt="">
     			    <span class="podaj-swoj-adres-i-s">Podaj swój adres i sprawdź dostępną prędkość internetu</span>  
@@ -32,9 +33,10 @@
 					<div class="option-grid">
 						<label for="field-city" class="miejscowo">Miejscowość:</label>
 						<div class="input-field-container">
-							<input type="text" name="field-city" id="field-city" class="rectangle-box" autocomplete="nope" autocorrect="off"/>
+							<input type="text" name="field-city" id="field-city" class="rectangle-box" autocomplete="nope" autocorrect="off" required />
+							<span class="icon-box-close" id="icon-box-close"></span>
 							<div id="list-box-suggest" class="input-container hidden">
-								<ul class="lists" id="vlad"></ul>
+								<ul class="lists"></ul>
 							</div>
 						</div>
 					</div>
@@ -46,7 +48,7 @@
 	
 							<!-- Checkbox start-->
 							<label class="street-container">
-							  <input type="checkbox">
+							  <input type="checkbox" id="street-not-exists" name="street-not-exists">
 							  <span class="checkmark-street infotip-optional" title="zaznacz jeśli w tym mieście nie ma ulicy"></span>
 							</label>
 							<!-- Checkbox end -->
@@ -55,7 +57,9 @@
 					</div>
 					<div class="option-grid">
 						<label for="field-house-num" class="nr-domu">nr domu:</label>
-						<input type="text" name="field-house-num" id="field-house-num" class="rectangle-6-copy-3"/>
+						<div class="input-field-container">
+							<input type="text" name="field-house-num" id="field-house-num" class="rectangle-6-copy-3" required/>
+						</div>
 					</div>
 					<div class="option-grid">
 					<label for="field-local-num" class="nr-lokalu">nr lokalu<span class="required-star info-req-value" title="opcjonalnie">* </span>:</label>
@@ -63,6 +67,7 @@
 					</div>
 					<button class="rectangle-6-copy-2"><span class="sprawd"> Sprawdź </span></button>
 				</div>
+			  </form>
     		</div>
     		<input id="hintsLimit" type="hidden" value="3"> 	
 	</div>
@@ -84,13 +89,8 @@
 </section>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="./js/tippy.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
 <script src="./js/scripts.js"></script>
-
-<!--  
-Will be implemented after, we are got information about request parameters & methods.
-	<script src="./js/search_result.js"></script>
- -->
-
 
 </body>
 

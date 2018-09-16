@@ -236,6 +236,9 @@
     padding-bottom: 8px;
 }
 
+.option-grid input[type="text"]:disabled {
+    background: #dddddd;
+}
 
 /*Checkbox implementation Start*/
 
@@ -410,6 +413,43 @@ h1{
     text-align: center;
     padding-left: 20px;
 }
+
+#field-city-error, #field-house-num-error{
+    color: rgb(255, 93, 93);
+    font-family: TeleGroteskNormal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    position: absolute;
+    margin-top: 53px;
+}
+
+
+input#field-city[required].error, input#field-house-num[required].error{
+    border: 2px solid #FF5D5D;
+    background-color: #FFFFFF;
+
+}
+
+#field-city[required].error~.icon-box-close:before {
+  display: block;
+
+}
+
+.icon-box-close{
+  position: absolute;
+    top: 18px;
+    right: 67px;
+}
+
+.icon-box-close:before {
+  position: absolute;
+  display: none;
+  content: "\271A";
+  color: #FF5D5D;
+  transform: rotate(45deg);
+}
+
 
 .input-field-container .input-container .lists li:hover {
   background: #c5c5c5;

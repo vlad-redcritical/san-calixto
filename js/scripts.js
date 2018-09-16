@@ -21,8 +21,44 @@ $(document).ready(function () {
             animation: 'fade',
             delay: [120, 120]
         });
-         
+
+
+
+		    var messages = {
+		        'cityIsRequired': "Nie podano miejscowości",
+		        'houseNrIsRequired': "Nie podano nr domu"
+		    };
+		    
+		    $('#galaxy-search-form').validate({
+		        rules: {
+		            'field-city': {
+		                required: true},
+		             'field-house-num': {
+		                required: true},
+		        },
+		        messages: {
+		            'field-city': messages.cityIsRequired,
+		            'field-house-num': messages.houseNrIsRequired
+		        },
+		        onfocusout: function(element) {
+		            this.element(element);
+		        },
+		        submitHandler: function (form) {
+		            alert('form is valid');
+		            return false;
+		        }
+		    });
+
+		$('input[name=street-not-exists]').change(function(){
+		    if($(this).is(':checked')) {
+		        $('#field-street').prop("disabled", true);
+		    } else {
+   				$('#field-street').prop("disabled", false);
+		    }
+		});
+       
 });
+
 
 $(function(){
 

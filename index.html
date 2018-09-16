@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/tippy.css">
 
 	<link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
@@ -20,7 +21,6 @@
 <section class="search-galaxy">
 	<div class="container">
 		<h1>Internet Światłowodowy</h1>
-
 
 			<div class="rectangle-galaxy">
 				<div class="box-container-galaxy"> 
@@ -31,13 +31,18 @@
 				<div class="box-options">
 					<div class="option-grid">
 						<label for="field-city" class="miejscowo">Miejscowość:</label>
-						<input type="text" name="field-city" id="field-city" class="rectangle-box"/>
+						<div class="input-field-container">
+							<input type="text" name="field-city" id="field-city" class="rectangle-box" autocomplete="nope" autocorrect="off"/>
+							<div class="input-container">
+								<ul class="lists"></ul>
+							</div>
+						</div>
 					</div>
 					<div class="option-grid">
 						<label for="field-street" class="ulica">Ulica:</label>
 
 						<div class="option-element-check">
-							<input type="text" name="field-street" id="field-street" class="rectangle-box"/>
+							<input type="text" name="field-street" id="field-street" class="rectangle-box" autocomplete="nope"/>
 	
 							<!-- Checkbox start-->
 							<label class="street-container">
@@ -78,7 +83,7 @@
 		</div>
 </section>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="./js/tippy.min.js"></script>
+<!-- <script src="./js/tippy.min.js"></script> -->
 <script src="./js/scripts.js"></script>
 
 <!--  

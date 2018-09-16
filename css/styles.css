@@ -13,6 +13,10 @@
   font-style: normal; }
 
 
+  body {
+    z-index: 100;
+  }
+
 /*common start*/
 .box {
 	display: -webkit-box;
@@ -117,6 +121,10 @@
   background-color: #FFFFFF;
   margin-top: 8px;
   margin-right: 40px;
+}
+
+#show-name {
+  border: 1px solid blue;
 }
 
 .pasted-image-1 {
@@ -331,6 +339,84 @@ h1{
 		line-height: 68px;	
 		margin-top: 60px;
 		margin-bottom: 50px;
+}
+
+.input-field-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999 !important;
+}
+
+.input-field-container .input-container {
+  position: absolute;
+  width: 216px;
+  margin-top: 48px;
+  border: 1px solid #C5C5C5;
+  background-color: #fff;
+  color: #000;
+}
+
+.input-field-container .input-container .lists {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: max-content;
+  border: 1px solid #C5C5C5;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
+}
+
+.input-field-container .input-container .lists li {
+    cursor: pointer;
+    height: 21px;
+    color: #2D3236;
+    font-family: "TeleGroteskNormal";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    padding: 11px;
+}
+
+
+.input-field-container .input-container .lists li a {
+   height: 16px;
+    width: 36px;
+    color: #2D3236;
+    font-family: "TeleGroteskNormal";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+/*CITY*/
+.miasto {
+    height: 16px;
+    width: 36px;
+    color: #2D3236;
+    font-family: "TeleGroteskNormal";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.input-field-container .input-container .lists li:hover {
+  background: #c5c5c5;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: #c5c5c5;
+}
+
+.more {
+  color: #E20074 !important;
+  font-weight: 700 !important;
 }
 
 @font-face {

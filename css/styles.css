@@ -74,7 +74,7 @@
         -ms-flex-pack: justify;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-     padding: 26px 27px 36px 32px;
+     padding: 26px 24px 36px 32px;
   }
 
 
@@ -231,13 +231,15 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 26px;
-    padding-left: 14px;
+    padding-left: 11px;
     padding-top: 10px;
     padding-bottom: 8px;
 }
 
 .option-grid input[type="text"]:disabled {
-    background: #dddddd;
+    border: 1px solid #C5C5C5 !important;
+    opacity: 0.5;
+    background-color: #FFFFFF !important;
 }
 
 /*Checkbox implementation Start*/
@@ -279,15 +281,16 @@
 
 /* When the checkbox is checked, add a blue background */
 .street-container input:checked ~ .checkmark-street {
-    background-color: #ffffff;
+    border: 1px solid #C5C5C5;
+    background-color: #C5C5C5;
 }
 
 /* Create the checkmark-street/indicator (hidden when not checked) */
 .checkmark-street:after {
     position: absolute;
     display: none;
-    background : url(../img/shape-icon.png) no-repeat;
-  content : "";
+    background : url(../fonts/icons/svg/x-icon-gray.svg) no-repeat;
+    content : "";
 }
 
 /* Show the checkmark-street when checked */
@@ -298,9 +301,9 @@
 /* Style the checkmark-street/indicator */
 .street-container .checkmark-street:after {
     left: 3px;
-    top: 4px;
+    top: 3px;
+    height: 11px;
     width: 11px;
-    height: 9px;
 }
 
 .option-element-check {
@@ -374,6 +377,7 @@ h1{
   padding: 0;
   list-style-type: none;
   width: max-content;
+  width: -moz-max-content;
   border: 1px solid #C5C5C5;
   background-color: #FFFFFF;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
@@ -414,7 +418,7 @@ h1{
     padding-left: 20px;
 }
 
-#field-city-error, #field-house-num-error{
+#field-city-error, #field-house-num-error, #field-street-error{
     color: rgb(255, 93, 93);
     font-family: TeleGroteskNormal;
     font-size: 18px;
@@ -425,7 +429,7 @@ h1{
 }
 
 
-input#field-city[required].error, input#field-house-num[required].error{
+input#field-city[required].error, input#field-house-num[required].error, input#field-street.error{
     border: 2px solid #FF5D5D;
     background-color: #FFFFFF;
 
@@ -438,16 +442,18 @@ input#field-city[required].error, input#field-house-num[required].error{
 
 .icon-box-close{
   position: absolute;
-    top: 18px;
+    top: 22px;
     right: 67px;
 }
 
 .icon-box-close:before {
   position: absolute;
   display: none;
-  content: "\271A";
+  background : url(../fonts/icons/svg/x-shape-icon.svg) no-repeat;
+  content : "";
+  height: 15px; 
+  width: 14px;
   color: #FF5D5D;
-  transform: rotate(45deg);
 }
 
 

@@ -26,7 +26,8 @@ $(document).ready(function () {
 
 		    var messages = {
 		        'cityIsRequired': "Nie podano miejscowości",
-		        'houseNrIsRequired': "Nie podano nr domu"
+		        'houseNrIsRequired': "Nie podano nr domu",
+		        'fieldStreetIsRequired': "Nie podano nazwy ulicy"
 		    };
 		    
 		    $('#galaxy-search-form').validate({
@@ -35,10 +36,13 @@ $(document).ready(function () {
 		                required: true},
 		             'field-house-num': {
 		                required: true},
+		             'field-street': {
+		                required: true},
 		        },
 		        messages: {
 		            'field-city': messages.cityIsRequired,
-		            'field-house-num': messages.houseNrIsRequired
+		            'field-house-num': messages.houseNrIsRequired,
+		            'field-street': messages.fieldStreetIsRequired,
 		        },
 		        onfocusout: function(element) {
 		            this.element(element);
@@ -52,8 +56,13 @@ $(document).ready(function () {
 		$('input[name=street-not-exists]').change(function(){
 		    if($(this).is(':checked')) {
 		        $('#field-street').prop("disabled", true);
+		        $('#field-street').rules("remove",'required')
+			    $("#galaxy-search-form").valid();
+
 		    } else {
    				$('#field-street').prop("disabled", false);
+   				$('#field-street').rules("add",'required')
+			    $("#galaxy-search-form").valid();
 		    }
 		});
        

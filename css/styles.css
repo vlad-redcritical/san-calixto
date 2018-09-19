@@ -430,8 +430,8 @@ h1{
 
 
 input#field-city[required].error, input#field-house-num[required].error, input#field-street.error{
-    border: 2px solid #FF5D5D;
-    background-color: #FFFFFF;
+    outline: 2px solid rgba(255, 2, 2, 0.8);
+    outline-offset: -2px;
 
 }
 

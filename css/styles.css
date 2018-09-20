@@ -505,4 +505,17 @@ input#field-city[required].error, input#field-house-num[required].error, input#f
   font-weight: 100;
   font-style: normal; }
 
+  @font-face {
+  font-family: 'TeleGroteskFett';
+  src: url("../fonts/TeleGroteskFett.woff"); }
+
+
+@font-face {
+  font-family: 'TeleGrotesk';
+  src: url("../fonts/TeleGroteskFett.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TeleGroteskFett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskFett.woff2") format("woff2"), url("../fonts/TeleGroteskFett.woff") format("woff"), url("../fonts/TeleGroteskFett.ttf") format("truetype"), url("../fonts/TeleGroteskFett.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal; }
 

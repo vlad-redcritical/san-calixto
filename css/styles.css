@@ -35,6 +35,8 @@
 	border: 1px solid #C5C5C5;	
 	background-color: #EEEEEE;
 	box-sizing: content-box;
+	width: 1114px;
+
  
    }
 
@@ -349,7 +351,7 @@ h1{
 	height: 68px;
     width: 661px;
     color: #2D3236;	
-    font-family: 'Roboto', sans-serif;	
+    font-family: 'TeleGroteskFett';	
     font-size: 58px;	
 		font-weight: bold;	
 		line-height: 68px;	
@@ -488,5 +490,20 @@ input#field-city[required].error, input#field-house-num[required].error, input#f
   /* Legacy iOS */
   font-weight: 100;
   font-style: normal; }
+
+  @font-face {
+  font-family: 'TeleGroteskFett';
+  src: url("../fonts/TeleGroteskFett.woff"); }
+
+  @font-face {
+  font-family: 'TeleGrotesk';
+  src: url("../fonts/TeleGroteskFett.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TeleGroteskFett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskFett.woff2") format("woff2"), url("../fonts/TeleGroteskFett.woff") format("woff"), url("../fonts/TeleGroteskFett.ttf") format("truetype"), url("../fonts/TeleGroteskFett.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal; }
+
+
 
 

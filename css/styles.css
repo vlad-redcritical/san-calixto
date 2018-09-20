@@ -53,7 +53,7 @@
     margin-right: auto !important;}
 
 
-.box-container-galaxy, .box-container-summary{
+.box-container-galaxy{
 	  display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -62,10 +62,13 @@
     align-items: center;
     margin-left: 32px;
     width: 616px;
+
 }
 
-.box-container-galaxy{
-	margin-top: 26px;
+
+.form-container{
+	    	margin-top: 26px;
+
 }
 
 

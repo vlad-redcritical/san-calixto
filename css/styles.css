@@ -2,333 +2,318 @@
  * File: styles.css
  * Created: 2018-09-07-17:02
  */
-
- @charset "UTF-8";
+@charset "UTF-8";
 
 @font-face {
-  font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+	font-family: 'FontAwesome';
+	src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+	src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
 
-
-  body {
-    z-index: 100;
-  }
+body {
+	z-index: 100;
+}
 
 /*common start*/
 .box {
 	display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    
-    min-height: 94px;
-	border: 1px solid #C5C5C5;	
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	min-height: 94px;
+	border: 1px solid #C5C5C5;
 	background-color: #EEEEEE;
 	box-sizing: content-box;
 	width: 1114px;
-
- 
-   }
-
-   .search-galaxy .container {
-    max-width: 2560px;
-    min-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "TeleGroteskNormal"; 
-    box-sizing: content-box;
-    padding-left: 12% !important;
-    padding-right: 12% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;}
-
-
-.box-container-galaxy{
-	  display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-left: 32px;
-    width: 616px;
-
 }
 
-
-.form-container{
-	    	margin-top: 26px;
-
+.search-galaxy .container {
+	max-width: 2560px;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "TeleGroteskNormal";
+	box-sizing: content-box;
+	padding-left: 12% !important;
+	padding-right: 12% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
+.box-container-galaxy {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 32px;
+	width: 616px;
+}
 
+.form-container {
+	margin-top: 26px;
+}
 
-  .search-galaxy .box-options {
-      display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-     padding: 26px 24px 36px 32px;
-  }
-
+.search-galaxy .box-options {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 26px 24px 36px 32px;
+}
 
 .sprawd {
-  height: 26px;
-  width: 77px;
-  color: #FFFFFF;
-  font-family: "TeleGroteskNormal";
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 26px;
+	height: 26px;
+	width: 77px;
+	color: #FFFFFF;
+	font-family: "TeleGroteskNormal";
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 26px;
 }
 
-
 .group {
-  height: 44px;
-  width: 616px;
+	height: 44px;
+	width: 616px;
 }
 
 .required-star {
-    color: red;
+	color: red;
 }
 
 .podaj-swoj-adres-i-s {
-  height: 27px;
-  width: 549px;
-  color: #2D3236;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 27px;
-  letter-spacing: 0.015em;
+	height: 27px;
+	width: 549px;
+	color: #2D3236;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 27px;
+	letter-spacing: 0.015em;
 }
 
 .rectangle-galaxy {
-  height: 200px;
-  width: 1114px;
-  border: 1px solid #C5C5C5;
-  background-color: #EEEEEE;
+	height: 200px;
+	width: 1114px;
+	border: 1px solid #C5C5C5;
+	background-color: #EEEEEE;
 }
 
 .rectangle-box {
-  height: 21px;
-  width: 202px;
-  border: 1px solid #C5C5C5;
-  background-color: #FFFFFF;
-  margin-top: 8px;
-  margin-right: 40px;
+	height: 21px;
+	width: 202px;
+	border: 1px solid #C5C5C5;
+	background-color: #FFFFFF;
+	margin-top: 8px;
+	margin-right: 40px;
 }
 
 #show-name {
-  border: 1px solid blue;
+	border: 1px solid blue;
 }
 
 .pasted-image-1 {
-  height: 44px;
-  width: 44px;
-  margin-right: 23px;
+	height: 44px;
+	width: 44px;
+	margin-right: 23px;
 }
 
 .miejscowo {
-  height: 21px;
-  width: 98px;
-  color: #2D3236;
-  font-family: "TeleGroteskNormal";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21px;
-  display: block;
+	height: 21px;
+	width: 98px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	display: block;
 }
 
 .ulica {
-  height: 21px;
-  width: 43px;
-  color: #2D3236;
-  font-family: "TeleGroteskNormal";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21px;
-  display: block;
+	height: 21px;
+	width: 43px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	display: block;
 }
 
 .nr-domu {
-  height: 21px;
-  width: 67px;
-  color: #2D3236;
-  font-family: "TeleGroteskNormal";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21px;
-  display: block;
+	height: 21px;
+	width: 67px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	display: block;
 }
 
 .nr-lokalu {
-  height: 21px;
-  width: 88px;
-  color: #2D3236;
-  font-family: "TeleGroteskNormal";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21px;
-  display: block;
+	height: 21px;
+	width: 88px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	display: block;
 }
 
 .rectangle-6-copy-4 {
-  height: 21px;
-  width: 106px;
-  border: 1px solid #C5C5C5;
-  background-color: #FFFFFF;
-  margin-top: 8px;
-  margin-right: 41px;
+	height: 21px;
+	width: 106px;
+	border: 1px solid #C5C5C5;
+	background-color: #FFFFFF;
+	margin-top: 8px;
+	margin-right: 41px;
 }
 
-
 .search_get_hints {
-  height: 204px;
-  width: 245px;
-  border: 1px solid #C5C5C5;
-  background-color: #FFFFFF;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
+	height: 204px;
+	width: 245px;
+	border: 1px solid #C5C5C5;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .rectangle-6-copy-3 {
-  height: 21px;
-  width: 106px;
-  border: 1px solid #C5C5C5;
-  background-color: #FFFFFF;
-  margin-top: 8px;
-  margin-right: 34px;
+	height: 21px;
+	width: 106px;
+	border: 1px solid #C5C5C5;
+	background-color: #FFFFFF;
+	margin-top: 8px;
+	margin-right: 34px;
 }
 
 .tippy-tooltip.galaxy-theme {
-  padding: .5rem .75rem;
+	padding: .5rem .75rem;
 }
 
 .rectangle-6-copy-2 {
-  height: 68px;
-  width: 216px;
-  box-shadow: none;
-  border: 0;
-  border-radius: 7px;
-  background-color: #E20074;
-  cursor: pointer;
+	height: 68px;
+	width: 216px;
+	box-shadow: none;
+	border: 0;
+	border-radius: 7px;
+	background-color: #E20074;
+	cursor: pointer;
 }
 
 .rectangle-6-copy-2:active {
- 
-  transform: translateY(2px);
+	transform: translateY(2px);
 }
 
 .tippy-tooltip-content {
-    font-family: "TeleGroteskNormal";
-    color: #2D3236;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 14px;
-    text-align: center;
+	font-family: "TeleGroteskNormal";
+	color: #2D3236;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 14px;
+	text-align: center;
 }
 
-.option-grid input[type="text"]
-{
-    font-size: 24px;
-    color: #2D3236;
-    font-family: "TeleGroteskNormal";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 26px;
-    padding-left: 11px;
-    padding-top: 10px;
-    padding-bottom: 8px;
+.option-grid input[type="text"] {
+	font-size: 24px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	padding-left: 11px;
+	padding-top: 10px;
+	padding-bottom: 8px;
 }
 
 .option-grid input[type="text"]:disabled {
-    border: 1px solid #C5C5C5 !important;
-    opacity: 0.5;
-    background-color: #FFFFFF !important;
+	border: 1px solid #C5C5C5 !important;
+	opacity: 0.5;
+	background-color: #FFFFFF !important;
 }
 
 /*Checkbox implementation Start*/
-
 .street-container {
-    position: absolute;
-    padding-left: 35px;
-    margin-top: 20px;
-    margin-left: 189px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	position: absolute;
+	padding-left: 35px;
+	margin-top: 20px;
+	margin-left: 189px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* Hide the browser's default checkbox */
 .street-container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
 }
 
 /* Create a custom checkbox */
 .checkmark-street {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 17px;
-    width: 17px;
-    border: 1px solid #C5C5C5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 17px;
+	width: 17px;
+	border: 1px solid #C5C5C5;
 }
 
 /* On mouse-over, add a grey background color */
 .street-container:hover input ~ .checkmark-street {
-    background-color: #fff;
-    border: 1px solid #9dbff6;
+	background-color: #fff;
+	border: 1px solid #9dbff6;
 }
 
 /* When the checkbox is checked, add a blue background */
 .street-container input:checked ~ .checkmark-street {
-    border: 1px solid #C5C5C5;
-    background-color: #C5C5C5;
+	border: 1px solid #C5C5C5;
+	background-color: #C5C5C5;
 }
 
 /* Create the checkmark-street/indicator (hidden when not checked) */
 .checkmark-street:after {
-    position: absolute;
-    display: none;
-    background : url(../fonts/icons/svg/x-icon-gray.svg) no-repeat;
-    content : "";
+	position: absolute;
+	display: none;
+	background: url(../fonts/icons/svg/x-icon-gray.svg) no-repeat;
+	content: "";
 }
 
 /* Show the checkmark-street when checked */
 .street-container input:checked ~ .checkmark-street:after {
-    display: block;
+	display: block;
 }
 
 /* Style the checkmark-street/indicator */
 .street-container .checkmark-street:after {
-    left: 3px;
-    top: 3px;
-    height: 11px;
-    width: 11px;
+	left: 3px;
+	top: 3px;
+	height: 11px;
+	width: 11px;
 }
 
 .option-element-check {
-      display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .adres-bold, .adres, .inny-adres {
@@ -338,8 +323,8 @@
 
 .adres-bold, .adres {
 	color: #2D3236;
-
 }
+
 .adres-bold {
 	font-weight: bold;
 }
@@ -355,172 +340,163 @@
 	margin-right: 30px;
 	text-decoration: none;
 }
+
 .summary {
 	padding-left: 35px;
 	padding-right: 35px;
 }
 
-.box-container-summary{
-	    margin-top: 0px;
+.box-container-summary {
+	margin-top: 0px;
 }
 
-h1{
+h1 {
 	height: 68px;
-    width: 661px;
-    color: #2D3236;	
-    font-family: 'TeleGroteskFett';	
-    font-size: 58px;	
-		font-weight: bold;	
-		line-height: 68px;	
-		margin-top: 60px;
-		margin-bottom: 50px;
+	width: 661px;
+	color: #2D3236;
+	font-family: 'TeleGroteskFett';
+	font-size: 58px;
+	font-weight: bold;
+	line-height: 68px;
+	margin-top: 60px;
+	margin-bottom: 50px;
 }
 
 .input-field-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  z-index: 9999 !important;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	z-index: 9999 !important;
 }
 
 .input-field-container .input-container {
-  position: absolute;
-  width: 216px;
-  margin-top: 48px;
-  border: 1px solid #C5C5C5;
-  background-color: #fff;
-  color: #000;
+	position: absolute;
+	width: 216px;
+	margin-top: 48px;
+	border: 1px solid #C5C5C5;
+	background-color: #fff;
+	color: #000;
 }
 
 .input-field-container .input-container .lists {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  width: max-content;
-  width: -moz-max-content;
-  border: 1px solid #C5C5C5;
-  background-color: #FFFFFF;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: max-content;
+	width: -moz-max-content;
+	border: 1px solid #C5C5C5;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .input-field-container .input-container .lists li {
-    cursor: pointer;
-    height: 21px;
-    color: #2D3236;
-    font-family: "TeleGroteskNormal";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21px;
-    padding: 11px;
+	cursor: pointer;
+	height: 21px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	padding: 11px;
 }
 
-
 .input-field-container .input-container .lists li a {
-   height: 16px;
-    width: 36px;
-    color: #2D3236;
-    font-family: "TeleGroteskNormal";
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    padding-left: 20px;
+	height: 16px;
+	width: 36px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	padding-left: 20px;
 }
 
 /*CITY*/
 .miasto {
-    height: 16px;
-    width: 36px;
-    color: #2D3236;
-    font-family: "TeleGroteskNormal";
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    padding-left: 20px;
+	height: 16px;
+	width: 36px;
+	color: #2D3236;
+	font-family: "TeleGroteskNormal";
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	padding-left: 20px;
 }
 
-#field-city-error, #field-house-num-error, #field-street-error{
-    color: rgb(255, 93, 93);
-    font-family: TeleGroteskNormal;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 21px;
-    position: absolute;
-    margin-top: 53px;
+#field-city-error, #field-house-num-error, #field-street-error {
+	color: rgb(255, 93, 93);
+	font-family: TeleGroteskNormal;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21px;
+	position: absolute;
+	margin-top: 53px;
 }
 
-
-input#field-city[required].error, input#field-house-num[required].error, input#field-street.error{
-    outline: 2px solid rgba(255, 2, 2, 0.8);
-    outline-offset: -2px;
-
+input#field-city[required].error, input#field-house-num[required].error, input#field-street.error {
+	outline: 2px solid rgba(255, 2, 2, 0.8);
+	outline-offset: -2px;
 }
 
 #field-city[required].error~.icon-box-close:before {
-  display: block;
-
+	display: block;
 }
 
-.icon-box-close{
-  position: absolute;
-    top: 22px;
-    right: 67px;
+.icon-box-close {
+	position: absolute;
+	top: 22px;
+	right: 67px;
 }
 
 .icon-box-close:before {
-  position: absolute;
-  display: none;
-  background : url(../fonts/icons/svg/x-shape-icon.svg) no-repeat;
-  content : "";
-  height: 15px; 
-  width: 14px;
-  color: #FF5D5D;
+	position: absolute;
+	display: none;
+	background: url(../fonts/icons/svg/x-shape-icon.svg) no-repeat;
+	content: "";
+	height: 15px;
+	width: 14px;
+	color: #FF5D5D;
 }
 
-
 .input-field-container .input-container .lists li:hover {
-  background: #c5c5c5;
+	background: #c5c5c5;
 }
 
 .hidden {
-  display: none;
+	display: none;
 }
 
 .active {
-  background-color: #c5c5c5;
+	background-color: #c5c5c5;
 }
 
 .more {
-  color: #E20074 !important;
-  font-weight: 700 !important;
+	color: #E20074 !important;
+	font-weight: 700 !important;
 }
 
 @font-face {
-  font-family: 'TeleGroteskNormal';
-  src: url("../fonts/TeleGroteskNormal.woff"); }
-
+	font-family: 'TeleGroteskNormal';
+	src: url("../fonts/TeleGroteskNormal.woff");
+}
 
 @font-face {
-  font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskNormal.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/TeleGroteskNormal.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskNormal.woff2") format("woff2"), url("../fonts/TeleGroteskNormal.woff") format("woff"), url("../fonts/TeleGroteskNormal.ttf") format("truetype"), url("../fonts/TeleGroteskNormal.svg#svgFontName") format("svg");
-  /* Legacy iOS */
-  font-weight: 100;
-  font-style: normal; }
+	font-family: 'TeleGrotesk';
+	src: url("../fonts/TeleGroteskNormal.eot");  /* IE9 Compat Modes */
+	src: url("../fonts/TeleGroteskNormal.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskNormal.woff2") format("woff2"), url("../fonts/TeleGroteskNormal.woff") format("woff"), url("../fonts/TeleGroteskNormal.ttf") format("truetype"), url("../fonts/TeleGroteskNormal.svg#svgFontName") format("svg");  /* Legacy iOS */
+	font-weight: 100;
+	font-style: normal;
+}
 
-  @font-face {
-  font-family: 'TeleGroteskFett';
-  src: url("../fonts/TeleGroteskFett.woff"); }
+@font-face {
+	font-family: 'TeleGroteskFett';
+	src: url("../fonts/TeleGroteskFett.woff");
+}
 
-  @font-face {
-  font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskFett.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/TeleGroteskFett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskFett.woff2") format("woff2"), url("../fonts/TeleGroteskFett.woff") format("woff"), url("../fonts/TeleGroteskFett.ttf") format("truetype"), url("../fonts/TeleGroteskFett.svg#svgFontName") format("svg");
-  /* Legacy iOS */
-  font-weight: 700;
-  font-style: normal; }
-
-
-
-
+@font-face {
+	font-family: 'TeleGrotesk';
+	src: url("../fonts/TeleGroteskFett.eot");  /* IE9 Compat Modes */
+	src: url("../fonts/TeleGroteskFett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskFett.woff2") format("woff2"), url("../fonts/TeleGroteskFett.woff") format("woff"), url("../fonts/TeleGroteskFett.ttf") format("truetype"), url("../fonts/TeleGroteskFett.svg#svgFontName") format("svg");  /* Legacy iOS */
+	font-weight: 700;
+	font-style: normal;
+}

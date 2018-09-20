@@ -212,6 +212,9 @@
   margin-right: 34px;
 }
 
+.tippy-tooltip.galaxy-theme {
+  padding: .5rem .75rem;
+}
 
 .rectangle-6-copy-2 {
   height: 68px;
@@ -231,7 +234,7 @@
 .tippy-tooltip-content {
     font-family: "TeleGroteskNormal";
     color: #2D3236;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 14px;
     text-align: center;

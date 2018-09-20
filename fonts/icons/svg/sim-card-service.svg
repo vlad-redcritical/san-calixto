@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>sim-card_outline</title>
+  <rect class="a" width="64" height="64"/>
+  <g>
+    <path d="M21,24a2,2,0,0,0-2,2V50a2,2,0,0,0,2,2H43a2,2,0,0,0,2-2V26a2,2,0,0,0-2-2Zm15,2v7H28V26ZM21,26h6v7H21Zm0,24V43h6v7Zm7,0V43h8v7Zm15,0H37V42H21V34H43Zm0-24v7H37V26Z"/>
+    <path d="M40,4H14a2,2,0,0,0-2,2V58a2,2,0,0,0,2,2H50a2,2,0,0,0,2-2V16Zm9,53H15V7H38.71L49,17.29Z"/>
+  </g>
+</svg>

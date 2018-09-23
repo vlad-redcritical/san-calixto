@@ -62,8 +62,11 @@
     align-items: center;
     margin-left: 32px;
     width: 616px;
-    margin-top: 15px;
 }
+
+  .search-galaxy .galaxy-search-form {
+    margin-top: 15px;
+  }
 
   .search-galaxy .box-options {
       display: -webkit-box;
@@ -147,7 +150,7 @@
   display: block;
 }
 
-.ulica {
+.search-galaxy .ulica {
   height: 21px;
   width: 43px;
   color: #2D3236;

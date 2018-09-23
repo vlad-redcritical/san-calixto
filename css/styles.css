@@ -139,7 +139,7 @@
   margin-right: 23px;
 }
 
-.search-galaxy .rectangle-galaxy .option-grid .miejscowo {
+.search-galaxy .rectangle-galaxy .option-grix .miejscowo {
   height: 21px;
   width: 98px;
   color: #2D3236;
@@ -238,7 +238,7 @@
     text-align: center;
 }
 
-.search-galaxy .option-grid input[type="text"]
+.search-galaxy .option-grix input[type="text"]
 {
     font-size: 24px;
     color: #2D3236;
@@ -251,7 +251,7 @@
     padding-bottom: 8px;
 }
 
-.search-galaxy .option-grid input[type="text"]:disabled {
+.search-galaxy .option-grix input[type="text"]:disabled {
     outline: 2px solid #C5C5C5 !important;
     opacity: 0.5;
     background-color: #FFFFFF !important;
@@ -371,7 +371,7 @@
 		margin-bottom: 50px;
 }
 
-.search-galaxy .option-grid .input-field-container {
+.search-galaxy .option-grix .input-field-container {
   position: relative;
   display: flex;
   flex-direction: column;

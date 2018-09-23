@@ -109,7 +109,10 @@ $(function(){
             })
 
             $arr.forEach(function(elem){
-                var $itemList = '<li id="elem-list">' + elem + '<a> Miasto </a>' + '</li>';
+                 var text = '<span class="strong-text">' + elem.substr(0, $txt.length) + '</span>';
+                 text += elem.substr($txt.length);
+
+                var $itemList = '<li id="elem-list">' + text + '<a> Miasto </a>' + '</li>';
                 $('#list-box-suggest .lists').append($itemList);
                 $('#list-box-suggest').removeClass('hidden');
             });

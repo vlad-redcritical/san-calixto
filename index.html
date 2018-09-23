@@ -18,20 +18,22 @@
 
 <body>
 
+
+
 <section class="search-galaxy">
 	<div class="container">
 		<h1>Internet Światłowodowy</h1>
 
 			<div class="rectangle-galaxy">
 			  <form id="galaxy-search-form">
-				<div class="box-container-galaxy form-container"> 
+				<div class="box-container-galaxy"> 
 					<img class="pasted-image-1" src="img/search.png" alt="">
-    			    <span class="podaj-swoj-adres-i-s">Podaj swój adres i sprawdź dostępną prędkość internetu</span>  
+    			    <span class="podaj-swoj-adres-i-s" tabindex="0">Podaj swój adres i sprawdź dostępną prędkość internetu</span>  
     			</div>
 
 				<div class="box-options">
 					<div class="option-grid">
-						<label for="field-city" class="miejscowo">Miejscowość:</label>
+						<label for="field-city" class="miejscowo" tabindex="0">Miejscowość:</label>
 						<div class="input-field-container">
 							<input type="text" name="field-city" id="field-city" class="rectangle-box" autocomplete="nope" autocorrect="off" required />
 							<span class="icon-box-close" id="icon-box-close"></span>
@@ -41,28 +43,28 @@
 						</div>
 					</div>
 					<div class="option-grid">
-						<label for="field-street" class="ulica">Ulica:</label>
+						<label for="field-street" class="ulica" tabindex="0">Ulica:</label>
 
 						<div class="option-element-check">
 							<input type="text" name="field-street" id="field-street" class="rectangle-box" autocomplete="nope"/>
 	
 							<!-- Checkbox start-->
 							<label class="street-container">
-							  <input type="checkbox" id="street-not-exists" name="street-not-exists">
-							  <span class="checkmark-street infotip-optional" title="zaznacz jeśli w tym mieście nie ma ulicy"></span>
+							  <input type="checkbox" id="street-not-exists" name="street-not-exists" tabindex="-1">
+							  <span class="checkmark-street infotip-optional" title="zaznacz jeśli w tym mieście nie ma ulicy" tabindex="0"></span>
 							</label>
 							<!-- Checkbox end -->
 						</div>
 
 					</div>
 					<div class="option-grid">
-						<label for="field-house-num" class="nr-domu">nr domu:</label>
+						<label for="field-house-num" class="nr-domu" tabindex="0">nr domu:</label>
 						<div class="input-field-container">
 							<input type="text" name="field-house-num" id="field-house-num" class="rectangle-6-copy-3" required/>
 						</div>
 					</div>
 					<div class="option-grid">
-					<label for="field-local-num" class="nr-lokalu">nr lokalu<span class="required-star info-req-value" title="opcjonalnie">* </span>:</label>
+					<label for="field-local-num" class="nr-lokalu" tabindex="0">nr lokalu<span class="required-star info-req-value" title="opcjonalnie">* </span>:</label>
 						<input type="text" name="field-local-num" id="field-local-num" class="rectangle-6-copy-4"/>
 					</div>
 					<button class="rectangle-6-copy-2"><span class="sprawd"> Sprawdź </span></button>
@@ -79,14 +81,13 @@
 				<img src="img/search.png" alt="">
 				
 					
-    			   <p class="adres"> 
+    			   <p class="adres" tabindex="0"> 
     			   	Oferta dla: 
     			    <span class="adres-bold">ul. Żelazna 58/62, m.1423, 00-866 Warszawa</span> 
     			   </p>  
 			</div>
     		<a href="#" class="inny-adres">Zmień adres</a>      
 		</div>
-	</div>
 </section>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="./js/tippy.min.js"></script>

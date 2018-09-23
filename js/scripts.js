@@ -93,7 +93,7 @@ $(function(){
 
     $fieldCity.keyup(function(e){
         var $txt = e.target.value;
-        var $items = $('.lists li');
+        var $items = $('#list-box-suggest .lists li');
         var $arr = [];
         
         $items.remove();
@@ -110,14 +110,14 @@ $(function(){
 
             $arr.forEach(function(elem){
                 var $itemList = '<li id="elem-list">' + elem + '<a> Miasto </a>' + '</li>';
-                $('.lists').append($itemList);
+                $('#list-box-suggest .lists').append($itemList);
                 $('#list-box-suggest').removeClass('hidden');
             });
 
 
-            if ($('.lists li').length >= 5) {
-                $('.lists li:nth-child(5)').after('<li class="more">Pokaż więcej</li>');
-                $('.lists li:nth-child(n+7)').addClass('hidden');
+            if ($('#list-box-suggest .lists li').length >= 5) {
+                $('#list-box-suggest .lists li:nth-child(5)').after('<li class="more">Pokaż więcej</li>');
+                $('#list-box-suggest .lists li:nth-child(n+7)').addClass('hidden');
             }
         } else {
         	           $('#list-box-suggest').addClass('hidden');
@@ -132,20 +132,20 @@ $(function(){
 
     $('.input-field-container').on('click','li:not(".more")',function(){
         $fieldCity.val($(this).text());
-        $('.lists').children().remove();
+        $('#list-box-suggest .lists').children().remove();
         $('#list-box-suggest').addClass('hidden');
     });
 
     $('.input-field-container').on('click','li.more',function(){
-        $('.lists li.more').remove();
-        $('.lists li').removeClass('hidden');
+        $('#list-box-suggest .lists li.more').remove();
+        $('#list-box-suggest .lists li').removeClass('hidden');
     });
 
     $('#field-city').on('blur', function(){
 	   $(document).on('click', function(e){
 	   	var target = $( event.target );
 	    	  if (!target.is( ".more" ) && !target.is( "#elem-list" )) {
-	    	  	 $('.lists').children().remove();
+	    	  	 $('#list-box-suggest .lists').children().remove();
 	    	  	$('#list-box-suggest').addClass('hidden');
 	    	  }
 	   });

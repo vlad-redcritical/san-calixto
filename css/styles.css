@@ -18,7 +18,7 @@
   }
 
 /*common start*/
-.box {
+.search-galaxy .container .box {
 	display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53,7 +53,7 @@
     margin-right: auto !important;}
 
 
-.box-container-galaxy{
+.search-galaxy .box-container-galaxy{
 	  display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -62,16 +62,8 @@
     align-items: center;
     margin-left: 32px;
     width: 616px;
-
+    margin-top: 15px;
 }
-
-
-.form-container{
-	    	margin-top: 26px;
-
-}
-
-
 
   .search-galaxy .box-options {
       display: -webkit-box;
@@ -88,7 +80,7 @@
   }
 
 
-.sprawd {
+.search-galaxy .sprawd {
   height: 26px;
   width: 77px;
   color: #FFFFFF;
@@ -99,16 +91,16 @@
 }
 
 
-.group {
+.search-galaxy .group {
   height: 44px;
   width: 616px;
 }
 
-.required-star {
+.search-galaxy .required-star {
     color: red;
 }
 
-.podaj-swoj-adres-i-s {
+.search-galaxy .box-container-galaxy .podaj-swoj-adres-i-s {
   height: 27px;
   width: 549px;
   color: #2D3236;
@@ -118,14 +110,14 @@
   letter-spacing: 0.015em;
 }
 
-.rectangle-galaxy {
+.search-galaxy .container .rectangle-galaxy {
   height: 200px;
   width: 1114px;
   border: 1px solid #C5C5C5;
   background-color: #EEEEEE;
 }
 
-.rectangle-box {
+.search-galaxy .rectangle-box {
   height: 21px;
   width: 202px;
   border: 1px solid #C5C5C5;
@@ -134,17 +126,17 @@
   margin-right: 40px;
 }
 
-#show-name {
+.search-galaxy #show-name {
   border: 1px solid blue;
 }
 
-.pasted-image-1 {
+.search-galaxy .box-container-galaxy .pasted-image-1 {
   height: 44px;
   width: 44px;
   margin-right: 23px;
 }
 
-.miejscowo {
+.search-galaxy .rectangle-galaxy .option-grid .miejscowo {
   height: 21px;
   width: 98px;
   color: #2D3236;
@@ -166,7 +158,7 @@
   display: block;
 }
 
-.nr-domu {
+.search-galaxy .nr-domu {
   height: 21px;
   width: 67px;
   color: #2D3236;
@@ -177,7 +169,7 @@
   display: block;
 }
 
-.nr-lokalu {
+.search-galaxy .nr-lokalu {
   height: 21px;
   width: 88px;
   color: #2D3236;
@@ -188,7 +180,7 @@
   display: block;
 }
 
-.rectangle-6-copy-4 {
+.search-galaxy .rectangle-6-copy-4 {
   height: 21px;
   width: 106px;
   border: 1px solid #C5C5C5;
@@ -198,7 +190,7 @@
 }
 
 
-.search_get_hints {
+.search-galaxy .search_get_hints {
   height: 204px;
   width: 245px;
   border: 1px solid #C5C5C5;
@@ -206,7 +198,7 @@
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
 }
 
-.rectangle-6-copy-3 {
+.search-galaxy .rectangle-6-copy-3 {
   height: 21px;
   width: 106px;
   border: 1px solid #C5C5C5;
@@ -219,7 +211,7 @@
   padding: .5rem .75rem;
 }
 
-.rectangle-6-copy-2 {
+.search-galaxy .rectangle-6-copy-2 {
   height: 68px;
   width: 216px;
   box-shadow: none;
@@ -229,7 +221,7 @@
   cursor: pointer;
 }
 
-.rectangle-6-copy-2:active {
+.search-galaxy .rectangle-6-copy-2:active {
  
   transform: translateY(2px);
 }
@@ -243,7 +235,7 @@
     text-align: center;
 }
 
-.option-grid input[type="text"]
+.search-galaxy .option-grid input[type="text"]
 {
     font-size: 24px;
     color: #2D3236;
@@ -256,15 +248,15 @@
     padding-bottom: 8px;
 }
 
-.option-grid input[type="text"]:disabled {
-    border: 1px solid #C5C5C5 !important;
+.search-galaxy .option-grid input[type="text"]:disabled {
+    outline: 2px solid #C5C5C5 !important;
     opacity: 0.5;
     background-color: #FFFFFF !important;
 }
 
 /*Checkbox implementation Start*/
 
-.street-container {
+.search-galaxy .street-container {
     position: absolute;
     padding-left: 35px;
     margin-top: 20px;
@@ -277,14 +269,14 @@
 }
 
 /* Hide the browser's default checkbox */
-.street-container input {
+.search-galaxy .street-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
 
 /* Create a custom checkbox */
-.checkmark-street {
+.search-galaxy .checkmark-street {
     position: absolute;
     top: 0;
     left: 0;
@@ -294,19 +286,19 @@
 }
 
 /* On mouse-over, add a grey background color */
-.street-container:hover input ~ .checkmark-street {
+.search-galaxy .street-container:hover input ~ .checkmark-street {
     background-color: #fff;
     border: 1px solid #9dbff6;
 }
 
 /* When the checkbox is checked, add a blue background */
-.street-container input:checked ~ .checkmark-street {
+.search-galaxy .street-container input:checked ~ .checkmark-street {
     border: 1px solid #C5C5C5;
     background-color: #C5C5C5;
 }
 
 /* Create the checkmark-street/indicator (hidden when not checked) */
-.checkmark-street:after {
+.search-galaxy .checkmark-street:after {
     position: absolute;
     display: none;
     background : url(../fonts/icons/svg/x-icon-gray.svg) no-repeat;
@@ -314,57 +306,57 @@
 }
 
 /* Show the checkmark-street when checked */
-.street-container input:checked ~ .checkmark-street:after {
+.search-galaxy .street-container input:checked ~ .checkmark-street:after {
     display: block;
 }
 
 /* Style the checkmark-street/indicator */
-.street-container .checkmark-street:after {
+.search-galaxy .street-container .checkmark-street:after {
     left: 3px;
     top: 3px;
     height: 11px;
     width: 11px;
 }
 
-.option-element-check {
+.search-galaxy .option-element-check {
       display: flex;
     justify-content: space-between;
 }
 
-.adres-bold, .adres, .inny-adres {
+.search-galaxy .adres-bold, .adres, .inny-adres {
 	font-size: 24px;
 	line-height: 27px;
 }
 
-.adres-bold, .adres {
+.search-galaxy .adres-bold, .adres {
 	color: #2D3236;
 
 }
-.adres-bold {
+.search-galaxy .adres-bold {
 	font-weight: bold;
 }
 
-.adres {
+.search-galaxy .adres {
 	padding-left: 23px;
 }
 
-.inny-adres {
+.search-galaxy .inny-adres {
 	color: #DE2077;
 	width: 116px;
 	text-align: right;
 	margin-right: 30px;
 	text-decoration: none;
 }
-.summary {
+.search-galaxy .summary {
 	padding-left: 35px;
 	padding-right: 35px;
 }
 
-.box-container-summary{
+.search-galaxy .box-container-summary{
 	    margin-top: 0px;
 }
 
-h1{
+.search-galaxy h1{
 	height: 68px;
     width: 661px;
     color: #2D3236;	
@@ -376,14 +368,14 @@ h1{
 		margin-bottom: 50px;
 }
 
-.input-field-container {
+.search-galaxy .option-grid .input-field-container {
   position: relative;
   display: flex;
   flex-direction: column;
   z-index: 9999 !important;
 }
 
-.input-field-container .input-container {
+.search-galaxy .input-field-container .input-container {
   position: absolute;
   width: 216px;
   margin-top: 48px;
@@ -392,7 +384,7 @@ h1{
   color: #000;
 }
 
-.input-field-container .input-container .lists {
+.search-galaxy .input-field-container .input-container .lists {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -403,7 +395,7 @@ h1{
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
 }
 
-.input-field-container .input-container .lists li {
+.search-galaxy .input-field-container .input-container .lists li {
     cursor: pointer;
     height: 21px;
     color: #2D3236;
@@ -415,7 +407,7 @@ h1{
 }
 
 
-.input-field-container .input-container .lists li a {
+.search-galaxy .input-field-container .input-container .lists li a {
    height: 16px;
     width: 36px;
     color: #2D3236;
@@ -427,7 +419,7 @@ h1{
 }
 
 /*CITY*/
-.miasto {
+.search-galaxy .miasto {
     height: 16px;
     width: 36px;
     color: #2D3236;
@@ -438,7 +430,7 @@ h1{
     padding-left: 20px;
 }
 
-#field-city-error, #field-house-num-error, #field-street-error{
+.search-galaxy #field-city-error, #field-house-num-error, #field-street-error{
     color: rgb(255, 93, 93);
     font-family: TeleGroteskNormal;
     font-size: 18px;
@@ -448,25 +440,24 @@ h1{
     margin-top: 53px;
 }
 
-
-input#field-city[required].error, input#field-house-num[required].error, input#field-street.error{
+.search-galaxy input#field-city[required].error, input#field-house-num[required].error, input#field-street.error{
     outline: 2px solid rgba(255, 2, 2, 0.8);
     outline-offset: -2px;
 
 }
 
-#field-city[required].error~.icon-box-close:before {
+.search-galaxy #field-city[required].error~.icon-box-close:before {
   display: block;
 
 }
 
-.icon-box-close{
+.search-galaxy .icon-box-close{
   position: absolute;
     top: 22px;
     right: 67px;
 }
 
-.icon-box-close:before {
+.search-galaxy .icon-box-close:before {
   position: absolute;
   display: none;
   background : url(../fonts/icons/svg/x-shape-icon.svg) no-repeat;
@@ -477,19 +468,19 @@ input#field-city[required].error, input#field-house-num[required].error, input#f
 }
 
 
-.input-field-container .input-container .lists li:hover {
+.search-galaxy .input-field-container .input-container .lists li:hover {
   background: #c5c5c5;
 }
 
-.hidden {
+.search-galaxy .hidden {
   display: none;
 }
 
-.active {
+.search-galaxy .active {
   background-color: #c5c5c5;
 }
 
-.more {
+.search-galaxy .more {
   color: #E20074 !important;
   font-weight: 700 !important;
 }

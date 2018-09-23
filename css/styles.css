@@ -460,6 +460,10 @@
     right: 67px;
 }
 
+.strong-text{
+font-weight: bold;
+}
+
 .search-galaxy .icon-box-close:before {
   position: absolute;
   display: none;

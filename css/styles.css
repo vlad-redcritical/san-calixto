@@ -378,27 +378,28 @@
   z-index: 9999 !important;
 }
 
-.search-galaxy .input-field-container .input-container {
-  position: absolute;
-  width: 216px;
-  margin-top: 48px;
-  border: 1px solid #C5C5C5;
-  background-color: #fff;
-  color: #000;
+.search-galaxy .input-field-container .input-container, .search-galaxy .option-element-check .input-container {
+    position: absolute;
+    width: 216px;
+    margin-top: 48px;
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+    color: #000;
+    z-index: 999;
 }
 
-.search-galaxy .input-field-container .input-container .lists {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  width: max-content;
-  width: -moz-max-content;
-  border: 1px solid #C5C5C5;
-  background-color: #FFFFFF;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
+.search-galaxy .input-field-container .input-container .lists, .search-galaxy .option-element-check .input-container .lists {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: max-content;
+    width: -moz-max-content;
+    width: 216px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
 }
 
-.search-galaxy .input-field-container .input-container .lists li {
+.search-galaxy .input-field-container .input-container .lists li, .search-galaxy .option-element-check .input-container .lists li {
     cursor: pointer;
     height: 21px;
     color: #2D3236;
@@ -410,15 +411,17 @@
 }
 
 
-.search-galaxy .input-field-container .input-container .lists li a {
-   height: 16px;
-    width: 36px;
-    color: #2D3236;
-    font-family: "TeleGroteskNormal";
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    padding-left: 20px;
+.search-galaxy .input-field-container .input-container .lists li a, .search-galaxy .option-element-check .input-container .lists li a {
+      height: 16px;
+      width: 36px;
+      color: #2d3236;
+      font-family: "TeleGroteskNormal";
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      right: 0px;
+      float: right;
+      margin-right: 20px;
 }
 
 /*CITY*/
@@ -475,7 +478,7 @@ font-weight: bold;
 }
 
 
-.search-galaxy .input-field-container .input-container .lists li:hover {
+.search-galaxy .input-field-container .input-container .lists li:hover, .search-galaxy .option-element-check .input-container .lists li:hover {
   background: #c5c5c5;
 }
 
@@ -518,7 +521,5 @@ font-weight: bold;
   /* Legacy iOS */
   font-weight: 700;
   font-style: normal; }
-
-
 
 

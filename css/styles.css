@@ -519,7 +519,125 @@ font-weight: bold;
   /* IE9 Compat Modes */
   src: url("../fonts/TeleGroteskFett.eot?#iefix") format("embedded-opentype"), url("../fonts/TeleGroteskFett.woff2") format("woff2"), url("../fonts/TeleGroteskFett.woff") format("woff"), url("../fonts/TeleGroteskFett.ttf") format("truetype"), url("../fonts/TeleGroteskFett.svg#svgFontName") format("svg");
   /* Legacy iOS */
-  font-weight: 700;
+         font-weight: 700;
   font-style: normal; }
 
 
+
+
+@media only screen and (max-width:600px) {
+
+	.search-galaxy .container {
+    font-family: "TeleGroteskNormal";
+    box-sizing: content-box;
+    padding-left: 9% !important;
+    padding-right: 12% !important;
+    min-width: none;
+	}
+
+	.search-galaxy .box-container-galaxy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: normal;    
+    margin-left: 32px;
+    width: 100%;
+}
+
+.search-galaxy .pasted-image-1 {
+    margin-right: 23px;
+    width: 10%;
+    height: 10%;
+    padding-bottom: inherit;
+}
+
+.search-galaxy .box-container-galaxy .podaj-swoj-adres-i-s {
+ 	 font-size: 17px;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+}
+
+.search-galaxy .option-grix {
+    margin-bottom: 10px;
+}
+
+.search-galaxy .rectangle-box {
+    height: 21px;
+    width: 220px;
+    border: 1px solid #C5C5C5;
+    background-color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.search-galaxy .checkmark-street {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    height: 17px;
+    width: 17px;
+    border: 1px solid #C5C5C5;
+}
+
+.search-galaxy .checkmark-street {
+  
+    left: 12px;
+   
+}
+
+.search-galaxy .rectangle-6-copy-2 {
+    width: 240px;
+   
+}
+
+
+
+
+	.search-galaxy .container .rectangle-galaxy {
+   	width: 100%;
+    height: auto;
+    border: 1px solid #C5C5C5;
+    background-color: #EEEEEE;
+	}
+
+	.search-galaxy .container .box {
+    width: 100%;
+    min-width: none;
+	}
+
+	.search-galaxy h1 {
+		font-size: 29px;
+		margin-top: 26px;
+		margin-bottom: 10px;
+	}
+
+	.search-galaxy .box-container-galaxy {
+		margin-left: 24px;    /* width: 616px; */
+	}
+
+	.search-galaxy .adres-bold {
+		display: table;
+	}
+
+	.search-galaxy .adres-bold, .adres, .inny-adres {
+    font-size: 19px;
+	}
+
+	.search-galaxy img{
+		width: 10%;
+		    padding-bottom: 16%;
+	}
+
+	.search-galaxy .inny-adres {
+    	    padding-left: 15%;
+    	    font-weight: bold;
+    	        margin-bottom: 7%;
+	}
+
+	.search-galaxy .adres {
+    line-height: 41px;
+	}
+
+}

@@ -6,6 +6,14 @@ $(document).ready(function() {
         animation: "fade",
         delay: [120, 120]
     });
+
+    tippy(".router-tooltip", {
+        theme: "galaxy light",
+        arrow: true,
+        arrowType: "round",
+        animation: "fade",
+        delay: [120, 120]
+    });
     tippy(".info-req-value", {
         theme: "galaxy light",
         arrow: true,
@@ -54,7 +62,56 @@ $(document).ready(function() {
             $("#field-street").rules("add", "required");
             $("#galaxy-search-form").valid()
         }
-    })
+    });
+
+
+
+    /*Slick*/
+        $('#galaxy-offers-elements').slick({
+        prevArrow: '',
+        nextArrow: '',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    initialSlide: 0,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    focusOnSelect: false,
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
+                    initialSlide: 0,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    focusOnSelect: false
+                }
+            },
+            {
+                breakpoint: 650,
+                settings: {
+                    slidesToShow: 1,
+                    initialSlide: 0,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    focusOnSelect: false,
+                    arrows: false
+                }
+            }
+        ]
+    });
+    /*Slick*/
+
+
 });
 $(function() {
     var b = $("#field-city");

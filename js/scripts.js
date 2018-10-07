@@ -10,6 +10,7 @@ $(document).ready(function() {
     tippy(".router-tooltip", {
         theme: "galaxy light",
         arrow: true,
+        size: 'large',
         arrowType: "round",
         animation: "fade",
         delay: [120, 120]

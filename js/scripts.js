@@ -114,6 +114,54 @@ $(document).ready(function() {
             }
         ]
     });
+
+
+        $('#galaxy-offers-first-elements').slick({
+        /*prevArrow: '<img  class="arrow-prev-l"  alt="Previous button - move to previous slide" src="C:/Users/v0073933/WebstormProjects/T-Mobile-mockup-git/assets/img/prev.png">',
+        nextArrow: '<img  class="arrow-next-r"  alt="Next button - move to next slide" src="C:/Users/v0073933/WebstormProjects/T-Mobile-mockup-git/assets/img/next.png">',*/
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: false,
+        infinite: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    initialSlide: 0,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    infinite: false,
+                    focusOnSelect: false,
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
+                    initialSlide: 0,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    focusOnSelect: false,
+                    infinite: false
+                }
+            },
+            {
+                breakpoint: 650,
+                settings: {
+                    slidesToShow: 1,
+                    initialSlide: 0,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    focusOnSelect: false,
+                    infinite: false,
+                    arrows: false
+                }
+            }
+        ]
+    });
     /*Slick*/
 
 

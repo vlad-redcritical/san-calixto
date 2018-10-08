@@ -535,6 +535,31 @@ font-weight: bold;
   font-weight: 100;
   font-style: normal; }
 
+@font-face {
+  font-family: 'TeleGroteskNext-Medium';
+  src: url("../fonts/TeleGroteskNext-Medium.woff"); }
+
+
+@font-face {
+  font-family: 'TeleGroteskNext-Medium';
+  src: url("../fonts/TeleGroteskNext-Medium.woff2") format("woff2"), url("../fonts/TeleGroteskNext-Medium.woff") format("woff"), url("../fonts/TeleGroteskNext-Medium.ttf") format("truetype");
+  /* Legacy iOS */
+  font-weight: 100;
+  font-style: normal; }
+
+
+@font-face {
+  font-family: 'TeleGroteskNext-Bold';
+  src: url("../fonts/TeleGroteskNext-Bold.woff"); }
+
+
+@font-face {
+  font-family: 'TeleGroteskNext-Bold';
+  src: url("../fonts/TeleGroteskNext-Bold.woff2") format("woff2"), url("../fonts/TeleGroteskNext-Bold.woff") format("woff"), url("../fonts/TeleGroteskNext-Bold.ttf") format("truetype");
+  /* Legacy iOS */
+  font-weight: 100;
+  font-style: normal; }
+
 
 /* Offers box start */
 

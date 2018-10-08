@@ -919,8 +919,8 @@ font-weight: bold;
 	.search-galaxy .container {
 		font-family: "TeleGroteskNormal";
 		box-sizing: content-box;
-		padding-left: 9% !important;
-		padding-right: 12% !important;
+		padding-left: 3% !important;
+		padding-right: 4% !important;
 		min-width: none;
 	}
 
@@ -934,6 +934,17 @@ font-weight: bold;
 		margin-left: 16px;
 		width: auto;
 	}
+
+	.search-galaxy .street-container {
+    display: inline-flex;
+    right: 0;
+    margin-right: 20%;
+}
+
+.search-galaxy input#field-city[required].error, input#field-house-num[required].error, input#field-street.error {
+ 
+    margin-bottom: 10px;
+}
 
 
 				.search-galaxy .box-container-galaxy .pasted-image-1 {
@@ -978,7 +989,7 @@ font-weight: bold;
 	}
 
 	.search-galaxy .checkmark-street {
-		left: 12px;
+		left: 134%;
 	}
 
 	.search-galaxy .rectangle-6-copy-2 {
@@ -1020,8 +1031,8 @@ font-weight: bold;
 	}
 
 	.search-galaxy img {
-		width: 10%;
-		padding-bottom: 16%;
+		width: 34px;
+		height: 34px;
 	}
 
 	.search-galaxy .inny-adres {
@@ -1055,6 +1066,10 @@ font-weight: bold;
     font-size: 18px;
     font-weight: 500;
     color: #2d3236;
+}
+
+.search-galaxy .galaxy-result {
+    padding-top: 30px;
 }
 
 .search-galaxy .nr-domu {

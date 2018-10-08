@@ -838,7 +838,7 @@ font-weight: bold;
 /* Offers box end */
 
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:768px) {
 	.search-galaxy .container {
 		font-family: "TeleGroteskNormal";
 		box-sizing: content-box;
@@ -855,9 +855,10 @@ font-weight: bold;
 		-ms-flex-align: center;
 		align-items: normal;
 		margin-left: 16px;
-		width: auto;
+		width: 100%;
 	}
 
+	
 	.search-galaxy .street-container {
     display: inline-flex;
     right: 0;
@@ -941,16 +942,15 @@ font-weight: bold;
 		line-height: normal;
 	}
 
-	.search-galaxy .box-container-galaxy {
-		margin-left: 24px;    /* width: 616px; */
-	}
+	
 
 	.search-galaxy .adres-bold {
 		display: table;
+		line-height: normal;
 	}
 
 	.search-galaxy .adres-bold, .adres, .inny-adres {
-		font-size: 19px;
+		font-size: 16px;
 	}
 
 	.search-galaxy img {
@@ -959,13 +959,18 @@ font-weight: bold;
 	}
 
 	.search-galaxy .inny-adres {
-		padding-left: 15%;
+		width: auto;
+    text-align: left;
+    margin-right: 0px;
 		font-weight: bold;
-		margin-bottom: 7%;
+		padding-left: 68px;
+		padding-bottom: 19px;
 	}
 
 	.search-galaxy .adres {
-		line-height: 41px;
+		line-height: 36px;
+		padding-left: 19px;
+		padding-right: 40px;
 	}
 
 	.search-galaxy .galaxy-search-form {
@@ -992,7 +997,7 @@ font-weight: bold;
 }
 
 .search-galaxy .galaxy-result {
-    padding-top: 30px;
+    padding-top: 27px;
 }
 
 .search-galaxy .nr-domu {

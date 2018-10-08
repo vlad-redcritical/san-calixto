@@ -1049,4 +1049,217 @@ font-weight: bold;
     margin-top: 8px;
     margin-right: 0px;
 }
+
+@media only screen and (min-width:768px) and (max-width:950px) {
+	.search-galaxy .container {
+		font-family: "TeleGroteskNormal";
+		box-sizing: content-box;
+		padding-left: 3% !important;
+		padding-right: 4% !important;
+		min-width: none;
+	}
+
+	.search-galaxy .box-container-galaxy {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: normal;
+		margin-left: 24px;
+		width: 100%;
+	}
+
+	
+	.search-galaxy .street-container {
+    display: inline-flex;
+    right: 0;
+    margin-right: 20%;
 }
+
+.search-galaxy input#field-city[required].error, input#field-house-num[required].error, input#field-street.error {
+ 
+    margin-bottom: 10px;
+}
+
+
+				.search-galaxy .box-container-galaxy .pasted-image-1 {
+    		height: 34px;
+    		width: 34px;
+    		margin-right: 16px;
+    		padding-bottom: initial;
+		}
+	
+
+	.search-galaxy .box-container-galaxy .podaj-swoj-adres-i-s {
+		font-size: 21px;
+		font-weight: bold;
+		  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d3236;
+		padding-right: 33px;
+		padding-top: 4px;
+	}
+
+	.search-galaxy .option-grix {
+		margin-bottom: 0px;
+				margin-right: 3%;
+
+		    width: 24%;
+	}
+
+	.search-galaxy .rectangle-box {
+		height: 21px;
+		width: 220px;
+		border: 1px solid #C5C5C5;
+		background-color: #FFFFFF;
+		margin-top: 3px;
+	}
+
+	.search-galaxy .checkmark-street {
+		position: absolute;
+		top: 0;
+		left: 12px;
+		height: 17px;
+		width: 17px;
+		border: 1px solid #C5C5C5;
+	}
+
+	.search-galaxy .checkmark-street {
+		left: 134%;
+	}
+
+	.search-galaxy .rectangle-6-copy-2 {
+		width: 18%;
+	}
+
+	.search-galaxy .container .rectangle-galaxy {
+		width: 100%;
+		height: auto;
+		border: 1px solid #C5C5C5;
+		background-color: #EEEEEE;
+	}
+
+	.search-galaxy .container .box {
+		width: 100%;
+		min-width: none;
+	}
+
+	.search-galaxy h1 {
+		font-size: 40px;
+		margin-top: 26px;
+		margin-bottom: 19px;
+		width: auto;
+		height: auto;
+		line-height: normal;
+	}
+
+	
+
+	.search-galaxy .adres-bold {
+		display: table;
+		line-height: normal;
+	}
+
+	.search-galaxy .adres-bold, .adres, .inny-adres {
+		font-size: 16px;
+	}
+
+	.search-galaxy img {
+		width: 34px;
+		height: 34px;
+	}
+
+	.search-galaxy .inny-adres {
+		width: auto;
+    text-align: left;
+    margin-right: 0px;
+		font-weight: bold;
+		padding-left: 68px;
+		padding-bottom: 19px;
+	}
+
+	.search-galaxy .adres {
+		line-height: 36px;
+		padding-left: 19px;
+		padding-right: 40px;
+	}
+
+	.search-galaxy .galaxy-search-form {
+    margin-top: 22px;
+}
+
+.search-galaxy .box-options {
+    
+    padding: 19px 19px 21px 25px;
+}
+
+.search-galaxy .rectangle-galaxy .option-grix .miejscowo {
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d3236;
+}
+
+.search-galaxy .ulica {
+     width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d3236;
+}
+
+.search-galaxy .galaxy-result {
+    padding-top: 27px;
+}
+
+.search-galaxy .nr-domu {
+     width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d3236;
+}
+
+.search-galaxy .nr-lokalu {
+     width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d3236;
+}
+
+.search-galaxy .option-grix .input-field-container {
+               width: 100%;
+                       flex-direction: row;
+}
+
+.search-galaxy .rectangle-box {
+  
+    margin-right: 0px;
+        width: 100%;
+}
+
+.search-galaxy .mobile-left {
+        width: 11%;
+               }
+
+.search-galaxy .mobile-rigth{
+        width: 11%;
+               }
+
+
+.search-galaxy .rectangle-6-copy-3 {
+    height: 21px;
+    width: 100%;
+    margin-top: 3px;
+    margin-right: 0px;
+}
+
+.search-galaxy .rectangle-6-copy-4 {
+     height: 21px;
+    width: 90%;
+    margin-top: 3px;
+    margin-right: 0px;
+}
+}
+

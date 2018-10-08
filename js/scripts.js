@@ -10,6 +10,7 @@ $(document).ready(function() {
     tippy(".router-tooltip", {
         theme: "galaxy light",
         arrow: true,
+        size: 'large',
         arrowType: "round",
         animation: "fade",
         delay: [120, 120]
@@ -68,19 +69,21 @@ $(document).ready(function() {
 
     /*Slick*/
         $('#galaxy-offers-elements').slick({
-        prevArrow: '',
-        nextArrow: '',
+        /*prevArrow: '<img  class="arrow-prev-l"  alt="Previous button - move to previous slide" src="C:/Users/v0073933/WebstormProjects/T-Mobile-mockup-git/assets/img/prev.png">',
+        nextArrow: '<img  class="arrow-next-r"  alt="Next button - move to next slide" src="C:/Users/v0073933/WebstormProjects/T-Mobile-mockup-git/assets/img/next.png">',*/
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: false,
+        infinite: false,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     initialSlide: 0,
                     slidesToScroll: 1,
                     centerMode: false,
+                    infinite: false,
                     focusOnSelect: false,
                     arrows: false
                 }
@@ -92,8 +95,9 @@ $(document).ready(function() {
                     centerMode: false,
                     initialSlide: 0,
                     slidesToScroll: 1,
-                    arrows: false,
-                    focusOnSelect: false
+                    arrows: true,
+                    focusOnSelect: false,
+                    infinite: false
                 }
             },
             {
@@ -104,6 +108,7 @@ $(document).ready(function() {
                     slidesToScroll: 1,
                     centerMode: false,
                     focusOnSelect: false,
+                    infinite: false,
                     arrows: false
                 }
             }

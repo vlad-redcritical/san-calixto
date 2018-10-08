@@ -523,6 +523,18 @@ font-weight: bold;
   font-style: normal; }
 
 
+@font-face {
+  font-family: 'TeleGroteskNext-Ultra';
+  src: url("../fonts/TeleGroteskNext-Ultra.woff"); }
+
+
+@font-face {
+  font-family: 'TeleGroteskNext-Ultra';
+  src: url("../fonts/TeleGroteskNext-Ultra.woff2") format("woff2"), url("../fonts/TeleGroteskNext-Ultra.woff") format("woff"), url("../fonts/TeleGroteskNext-Ultra.ttf") format("truetype");
+  /* Legacy iOS */
+  font-weight: 100;
+  font-style: normal; }
+
 
 /* Offers box start */
 
@@ -562,7 +574,7 @@ font-weight: bold;
 
 
 .search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.title {
-    font-family: TeleGroteskNormal;
+    font-family: TeleGroteskNext-Ultra;
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
@@ -578,7 +590,7 @@ font-weight: bold;
 .search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy  div.title-speed, .search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.title-router {
   padding-bottom: 18px;
     padding-top: 18px;
-    font-family: TeleGroteskNormal;
+    font-family: TeleGroteskNext-Ultra;
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
@@ -617,7 +629,7 @@ font-weight: bold;
 .search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.price {
   width: 100%;
   height: 49.5px;
-  font-family: TeleGroteskNormal;
+  font-family: TeleGroteskNext-Ultra;
   font-size: 52px;
   font-weight: bold;
   font-style: normal;
@@ -631,7 +643,7 @@ font-weight: bold;
 .search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.speed-value {
     width: 100%;
     height: 27px;
-    font-family: TeleGroteskNormal;
+    font-family: TeleGroteskNext-Ultra;
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
@@ -654,6 +666,21 @@ font-weight: bold;
 
 
 .search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker {
+  display: flex;
+}
+
+
+/*Checkbox implementation start*/
+
+
+
+.search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker input#router-option-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker span.checkmark-router-option.infotip-optional {
     width: 17px;
     height: 17px;
     border-radius: 4px;
@@ -663,6 +690,43 @@ font-weight: bold;
     margin-left: 15px;
     margin-bottom: 31px;
 }
+
+/* On mouse-over, add a grey background color */
+.search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker:hover input ~ .checkmark-router-option {
+  }
+
+/* When the checkbox is checked, add a blue background */
+/*.search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker input:checked ~ .checkmark-router-option {
+    border: 1px solid #C5C5C5;
+    background-color: #C5C5C5;
+}*/
+
+/* Create the checkmark-street/indicator (hidden when not checked) */
+.search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker .checkmark-router-option:after {
+    position: absolute;
+    display: none;
+    content: "\2714";
+
+}
+
+/* Show the checkmark-street when checked */
+.search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker input:checked ~ .checkmark-router-option:after {
+    display: block;
+}
+
+/* Style the checkmark-street/indicator */
+.search-galaxy .offer-boxes-galaxy .offers-container .offer-box .basic-row-galaxy div.router-box .checkbox-marker .checkmark-router-option:after {
+    height: 11px;
+    width: 11px;
+    margin-left: 2px;
+    margin-top: -2px;
+    color: #e20074;
+}
+
+
+
+
+/*Checkbox implementation end*/
 
 
 

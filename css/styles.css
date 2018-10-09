@@ -1144,6 +1144,7 @@ font-weight: bold;
     margin-top: 8px;
     margin-right: 0px;
 }
+}
 
 .search-galaxy .rectangle-6-copy-4 {
      height: 21px;
@@ -1194,22 +1195,24 @@ font-weight: bold;
 	
 
 	.search-galaxy .box-container-galaxy .podaj-swoj-adres-i-s {
-		font-size: 21px;
+		font-size: 18px;
 		font-weight: bold;
 		  font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
+  letter-spacing: 0px;
   color: #2d3236;
 		padding-right: 33px;
 		padding-top: 4px;
+		        font-family: "TeleGroteskNext-Bold";
+
 	}
 
 	.search-galaxy .option-grix {
 		margin-bottom: 0px;
-				margin-right: 3%;
+				margin-right: 2.5%;
 
-		    width: 24%;
+		    width: 22%;
 	}
 
 	.search-galaxy .rectangle-box {
@@ -1219,6 +1222,12 @@ font-weight: bold;
 		background-color: #FFFFFF;
 		margin-top: 3px;
 	}
+
+	.search-galaxy #field-city-error, #field-house-num-error, #field-street-error {
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 15px;
+}
 
 	.search-galaxy .checkmark-street {
 		position: absolute;
@@ -1234,7 +1243,7 @@ font-weight: bold;
 	}
 
 	.search-galaxy .rectangle-6-copy-2 {
-		width: 18%;
+		width: 24%;
 	}
 
 	.search-galaxy .container .rectangle-galaxy {
@@ -1256,6 +1265,7 @@ font-weight: bold;
 		width: auto;
 		height: auto;
 		line-height: normal;
+		        font-family: "TeleGroteskNext-Bold";
 	}
 
 	
@@ -1294,7 +1304,6 @@ font-weight: bold;
 }
 
 .search-galaxy .box-options {
-    
     padding: 19px 19px 21px 25px;
 }
 
@@ -1303,6 +1312,8 @@ font-weight: bold;
     font-size: 18px;
     font-weight: 500;
     color: #2d3236;
+        font-family: "TeleGroteskNext-Medium";
+
 }
 
 .search-galaxy .ulica {
@@ -1310,6 +1321,8 @@ font-weight: bold;
     font-size: 18px;
     font-weight: 500;
     color: #2d3236;
+        font-family: "TeleGroteskNext-Medium";
+
 }
 
 .search-galaxy .galaxy-result {
@@ -1321,6 +1334,8 @@ font-weight: bold;
     font-size: 18px;
     font-weight: 500;
     color: #2d3236;
+        font-family: "TeleGroteskNext-Medium";
+
 }
 
 .search-galaxy .nr-lokalu {
@@ -1328,6 +1343,7 @@ font-weight: bold;
     font-size: 18px;
     font-weight: 500;
     color: #2d3236;
+
 }
 
 .search-galaxy .option-grix .input-field-container {

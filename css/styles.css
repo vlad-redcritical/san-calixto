@@ -1176,8 +1176,11 @@ font-weight: bold;
 	
 	.search-galaxy .street-container {
     display: inline-flex;
-    right: 0;
-    margin-right: 20%;
+    margin-top: 16px;
+    margin-right: 0;
+        margin-left: 0;
+        padding-left: 16%;
+
 }
 
 .search-galaxy input#field-city[required].error, input#field-house-num[required].error, input#field-street.error {
@@ -1239,7 +1242,7 @@ font-weight: bold;
 	}
 
 	.search-galaxy .checkmark-street {
-		left: 134%;
+		left: auto;
 	}
 
 	.search-galaxy .rectangle-6-copy-2 {

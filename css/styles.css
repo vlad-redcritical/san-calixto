@@ -940,7 +940,7 @@ font-weight: bold;
 /* Offers box end */
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767px) {
 	.search-galaxy .container {
 		font-family: "TeleGroteskNormal";
 		box-sizing: content-box;
@@ -1179,7 +1179,7 @@ font-weight: bold;
     margin-top: 16px;
     margin-right: 0;
         margin-left: 0;
-        padding-left: 16%;
+        padding-left: 15%;
 
 }
 
